@@ -1,0 +1,85 @@
+.sidebar{
+    
+    flex:1;
+    border-right-style: solid;
+    border-right-color: rgba(155, 154, 154, 0.3);
+    border-right-width: 1px;
+    min-height: 100vh;
+    .top{
+        display:flex;
+        align-items: center; 
+        justify-content: center;   
+        height:50px;    
+    }
+    hr{
+        height:0;
+        border-color: rgba(155, 154, 154, 0.3);
+        border-width:1px 0 0 0 ;
+    }
+    .middle{
+        padding-left:10px;
+        ul{
+            list-style: none;
+            li{
+                display: flex;
+                text-align: center;
+                padding:8px;
+                .icon{
+                    margin-right: 5px;
+                    font-size: 18px;
+                    color:rgb(97, 63, 164);
+                }
+
+                span{
+                    font-size: 15px;
+                    font-weight: 600;
+                    color :#888;
+                    margin-left:10px;
+                }
+                // justify-content: center;
+            }
+            li:hover{
+                background-color: rgb(229, 224, 249);
+                cursor: pointer;
+            }
+            p{
+                font-size: 0.7rem;
+                font-weight: bold;
+                color:rgb(179, 179, 179);
+                padding : 3px;
+
+            }
+           
+        }
+    }
+
+    .bottom{
+        display: flex;
+        align-items: center;
+     
+        padding-left:10px;
+        
+        .colorOption{
+            height:20px;
+            width:20px;
+            border-radius:5px;
+            border-color:rgb(96, 18, 160);
+            border-style: solid;
+            border-width:2px;
+            margin:5px;
+            &:nth-child(1)
+            {
+                background-color: whitesmoke;
+            }
+            &:nth-child(2)
+            {
+                background-color: rgb(67, 66, 66);
+            }
+            &:nth-child(3)
+            {
+                background-color: rgb(11, 3, 37);
+            }
+
+        }
+    }
+}

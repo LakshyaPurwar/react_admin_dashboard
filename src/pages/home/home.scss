@@ -1,0 +1,18 @@
+.home{
+    display:flex;
+    .home-container{
+        background-color: rgb(255, 255, 255);
+        flex:6;
+
+        .widgets,.charts{
+            display:flex;
+            padding:2rem;
+            gap:2rem;
+        }
+        .charts{
+            display:flex;
+            padding:0.5rem 2rem;
+
+        }
+    }
+}
