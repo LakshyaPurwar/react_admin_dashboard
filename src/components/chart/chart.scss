@@ -1,3 +1,16 @@
 .chart{
-    flex:4;
+    flex:3;
+    padding:1rem;
+    border-radius : 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    .title{
+        margin-bottom: 1rem;
+        font-size: 16px;
+        font-weight: 600;
+        color:gray;
+        
+    }
+    .grid{
+        stroke: rgb(195, 195, 195);
+    }
 }
