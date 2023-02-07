@@ -1,27 +1,64 @@
-.productCell{
-    display: flex;
-    align-items: center;
-    // justify-content: center;
-    .image{
-        height: 2rem;
-        width:2rem;
-        border-radius: 50%;
-        object-fit: cover;
-        margin-right : 1rem;
+.datatable{
+    padding:5rem;
+    width:58vw;
+    height:80vh;
+    box-shadow: 2px 4px 10px 1px rgba(201 , 201, 201, 0.47) ;   
+
+    .userName{
+        display: flex;
+        // align-items: center;
+        justify-content: center;
+        .image{
+            height: 2rem;
+            width : 2rem;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 1rem;
+        }
+        
     }
-}
-.status{
-    font-weight: 500;
-}
-.Pending{
-    color:rgb(231, 197, 32);
-    padding:0.3rem;
-    border-radius:0.3rem;
-    background-color: rgba(219, 219, 25, 0.3);
-}
-.Approved{
-    color:green;
-    padding:0.3rem;
-    border-radius:0.3rem;
-    background-color: rgba(110, 237, 182, 0.3);
+    .status{
+        width:3rem;
+        height:0.3rem;
+        padding:1rem;
+        border-radius :0.3rem;
+        background-color:aqua;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .active{
+        background-color: rgba(184, 235, 184,0.5);
+        color:green;
+    }
+    .passive{
+        background-color: rgba(238, 133, 133,0.5);
+        color:rgb(146, 4, 4);
+    }
+
+    .cellAction{
+        display:flex;
+        align-items: center;//vertically align the buttons
+        gap:2rem;
+        .viewButton{
+            padding : 2px 5px;
+            border-radius:5px;
+            color:blue;
+            border :1px dotted rgba(0, 0, 255, 0.548);
+            cursor:pointer;
+
+        }
+        .deleteButton{
+            padding : 2px 5px;
+            border-radius:5px;
+            color:crimson;
+            border :1px dotted rgba(196, 12, 27, 0.548);
+            cursor:pointer;
+
+        }
+        
+
+    }
+
+
 }

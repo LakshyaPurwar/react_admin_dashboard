@@ -3,7 +3,7 @@ import Login from "./pages/login/Login";
 import List from "./pages/list/List";
 import { Routes, Route, Link, Router } from 'react-router-dom';
 import New from "./pages/new/New";
-import Single from "./pages/single/Single";
+import Single from "./pages/Single/Single";
 function App() {
   return (
     <div className="App">

@@ -1,0 +1,41 @@
+.new{
+    display: flex;
+    .newContainer{
+        flex:6;
+        display:flex;
+        flex-direction: column;
+        .newBody{
+            padding:2rem;
+            .top{
+                box-shadow: 2px 4px 10px 1px rgba(201 , 201, 201, 0.47) ;
+                padding:1rem 2rem;
+                border-radius:0.7rem;
+                .title{
+                    font-size:1.5rem;
+                    color:lightgray;
+                }
+            }
+            .bottom{
+                display : flex;
+                box-shadow: 2px 4px 10px 1px rgba(201 , 201, 201, 0.47) ;
+                padding:2rem 2rem;
+                border-radius:0.7rem;
+                .left{
+                    flex:1;
+                    display:flex;
+                    align-items: center;
+                    justify-content: center;
+                    .userImage{
+                        height:7rem;
+                        width:7rem;
+                        border-radius:50%;
+                        object-fit: cover;
+                    }
+                }
+                .right{
+                    flex:2;
+                }
+            }
+        }
+    }
+}

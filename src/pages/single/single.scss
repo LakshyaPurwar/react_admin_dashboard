@@ -1,0 +1,89 @@
+.singlePage{
+    display: flex;
+    .singleContainer{
+        flex:6;
+        .singleBody{
+            display:flex;
+            flex-direction: column;
+            width:100%;
+            .top{
+                padding:20px;
+                display:flex;
+                gap:2rem;
+                .left{
+                    flex:1.3;
+                    padding:2rem; 
+                    box-shadow: 2px 4px 10px 1px rgba(201 , 201, 201, 0.47) ;
+                    position:relative;
+                    
+                    .editButton{
+
+                        position:absolute;
+                        top:0;
+                        right:0;
+                        padding:0.5rem 1rem;
+                        font-size:12px;
+                        font-weight:bold;
+                        color:#7451f8;
+                        background-color: #7551f818;
+                        cursor:pointer;
+                        border-radius: 0px 0px 0px 5px;
+                    
+                    }
+
+                    .title{
+                        margin-bottom:1rem;
+                        color:lightgray;
+                        font-size:14px;
+                    }
+                    .item{
+                        display:flex;
+                        gap:20px;
+                        .itemImg{
+                            height:10rem;
+                            width:10rem;
+                            border-radius:50%;
+                            object-fit: cover;
+
+                        }
+                        .details{
+                            .itemTitle{
+                                color:gray;
+                                margin-right:0.3rem;
+                                
+                            }
+                            .detailItem{
+                                padding:0.3rem 0;
+                                font-size: 14px;;
+                                .itemKey{
+                                    color:gray;
+                                    font-weight:bold;
+                                }
+                                .itemValue{
+                                    color:black;
+                                    font-weight:300;
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+                .right{
+                    flex:2;
+                    box-shadow: 2px 4px 10px 1px rgba(201 , 201, 201, 0.47) ;
+                }
+            }
+            .bottom{
+                padding:2rem;
+                box-shadow: 2px 4px 10px 1px rgba(201 , 201, 201, 0.47) ;
+                border-radius:1.5rem;
+                .title{
+                    font-weight: bold;
+                    font-size: 1rem;
+                    color:gray;
+                    margin-bottom:2rem;
+                }
+            }
+        }
+    }
+}

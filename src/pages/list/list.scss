@@ -3,8 +3,13 @@
 
 }
 .sidebarContainer{
-    flex:2;
+    flex:2.5;
 }
 .listContainer{
     flex:14;
+    .listBody{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
 }
