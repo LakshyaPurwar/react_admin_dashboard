@@ -11,5 +11,29 @@
         display:flex;
         justify-content: center;
         align-items:center;
+        flex-direction: column;
+        
+        .title{
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+            // gap:10rem;
+            width:70%;
+            height:4rem;
+            padding:2rem 2rem 0;
+            .subTitle{
+                font-size: 2rem;
+                font-weight: 300;
+                color:gray;
+            }
+            .link{
+                text-decoration: none;
+                color:green;
+                border:1px  solid green;
+                padding:0.5rem;
+                border-radius:0.3rem;
+
+            }
+        }
     }
 }

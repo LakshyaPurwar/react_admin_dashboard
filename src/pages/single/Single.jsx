@@ -3,7 +3,7 @@ import './Single.scss';
 import Navbar from "../../components/navbar/Navbar";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Chart from "../../components/chart/Chart";
-import SimpleTable from "../../components/SimpleTable/SimpeTable";
+import SimpleTable from "../../data/SimpleTable/SimpeTable";
 function Single()
 {
     return <div className="singlePage">

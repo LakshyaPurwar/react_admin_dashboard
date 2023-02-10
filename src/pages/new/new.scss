@@ -12,7 +12,8 @@
                 border-radius:0.7rem;
                 .title{
                     font-size:1.5rem;
-                    color:lightgray;
+                    color:rgba(113, 113, 113, 0.795);
+                    font-weight: 400;
                 }
             }
             .bottom{
@@ -33,7 +34,57 @@
                     }
                 }
                 .right{
-                    flex:2;
+                    flex:3;
+                    .form{
+                        padding:1rem;
+                        display:flex;
+                        flex-wrap: wrap;
+                        .formInput{
+                            margin:1rem 2rem;
+                            width:40%;
+                            .inputField , .inputField:focus{
+                                width:100%;
+                                padding:0.5rem;
+                                border:0 none gray;
+                                border-bottom:2px solid gray;
+                                outline:none;
+                                font-size:1rem;
+                                font-weight:bold;
+                                color:gray;
+
+                            }
+                            .inputField::placeholder{
+                                font-weight:300;
+                                color:rgb(182, 182, 182);
+                            }
+
+                        }
+                        .imageInputLabel{
+                            display: flex;
+                            align-items: center;
+                            gap:4rem;
+                            margin-bottom:0;
+                            cursor: pointer;
+                        }
+                        .formAction{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin:1rem 2rem;
+                        }
+                        .submit-btn{
+                            width:9rem;
+                            height:3rem;
+                            background-color: teal;
+                            border:none;
+                            color:white;
+                            font-size: 14px;
+                            font-weight: 500;
+                            
+
+                        }
+
+                    }
                 }
             }
         }

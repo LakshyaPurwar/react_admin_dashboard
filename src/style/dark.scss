@@ -1,0 +1,188 @@
+.dark{
+    background-color: #252525;
+    color:rgb(171, 171, 171);
+
+    .widget{
+        background-color: #262626;
+        box-shadow: rgba(9, 9, 9, 0.899) 0px 3px 8px !important;
+        .icon-green{
+            color: rgb(37, 204, 37);
+        }
+        .icon-purple{
+            color:rgb(220, 0, 220);
+        }
+
+        .icon{
+            background-color: transparent;
+        }
+    }
+    .featured, .chart{
+        background-color:  #262626;
+        box-shadow: rgba(9, 9, 9, 0.899) 0px 3px 8px !important;
+
+    }
+
+    
+
+    .listContainer{
+        background-color:  #262626 !important;
+        box-shadow: rgba(9, 9, 9, 0.899) 0px 3px 8px !important;
+    }
+    .table{
+        background-color: #262626; ;
+        color:rgba(122, 122, 122, 0.225);
+        
+     
+        
+
+        .tableRow{
+           border-color:rgb(5, 4, 4);
+        }
+
+        .tableCell{
+            color:rgb(156,156,156);
+        }
+        .Pending{
+            color:rgb(229, 196, 29);
+            padding:0.3rem;
+            border-radius:0.3rem;
+            background-color: transparent;
+            border:1px solid rgb(229, 196, 29);
+        }
+        .Approved{
+            color:rgb(12, 226, 12);
+            padding:0.3rem;
+            border-radius:0.3rem;
+            background-color: transparent;
+             border:1px solid rgb(12, 226, 12);
+        }
+
+    }
+
+
+
+    p.amount{
+        color:rgb(174, 173, 173) !important;
+    }
+
+    .grid{
+        stroke:rgb(77, 77, 77);
+    }
+
+    .sidebar{
+
+        background-color:  #262626 !important;
+        box-shadow: rgba(9, 9, 9, 0.899) 0px 3px 8px !important;
+        .link{
+            color:white;
+        }
+        .middle li span{
+            color:rgb(204, 204, 204) !important;
+        }
+        .middle{
+            .icon{
+                color:rgb(140, 140, 140)
+            }
+        }
+        .middle li:hover{
+            background-color: rgba(110, 3, 210, 0.251);
+            border:1px dotted rgb(138, 54, 217);
+        }
+        
+    }
+
+    .navbar{
+        .search{
+            border: 1px solid gray;
+            input{
+                color: lightgray !important;
+            }
+        }
+    }
+
+    .listBody{
+        .title{
+            .subtitle{
+                color:rgb(177, 177, 177)
+            }
+            .link{
+
+                color:rgb(126, 243, 126);
+                border:1px solid rgb(126, 243, 126);
+
+            }
+        }
+    }
+
+    .datatable{
+        background-color:  #262626 !important;
+        box-shadow: rgba(9, 9, 9, 0.899) 0px 3px 8px !important;
+        .datagrid{
+            color:rgb(177, 177, 177);
+            border-color:rgb(144, 144, 144) !important;
+
+            .active{
+                background-color:transparent;
+                color:rgb(126, 243, 126);
+                border:1px solid rgb(126, 243, 126);
+            }
+            .passive{
+                background-color: transparent;
+                color:rgb(255, 98, 98);
+                border:1px solid rgb(255, 85, 85);
+            }
+
+            .cellAction{
+
+                .viewButton{
+                    color:rgb(152, 152, 255);
+                    border-color:rgb(152, 152, 255);
+                }
+                .deleteButton{
+                    color:rgb(255, 84, 84);
+                    border-color:rgb(255, 84, 84);
+                }
+            }
+        }
+        
+    }
+
+    .new{
+        .newBody{
+            padding:1rem 2rem 1rem 2rem 
+        }
+        .top{
+
+            background-color:  #262626 !important;
+        box-shadow: rgba(9, 9, 9, 0.899) 0px 3px 8px !important;
+        margin-bottom:1.5rem;
+        padding:0.5rem;
+        margin-top:0;
+
+        }
+        .bottom{
+
+            background-color:  #262626 !important;
+        box-shadow: rgba(9, 9, 9, 0.899) 0px 3px 8px !important;
+        padding-bottom:0;
+
+        }
+        .form{
+
+            .formInput{
+
+                .inputField{
+                    background-color: transparent;
+                }
+
+                .inputField::placeholder{
+                    font-weight:300;
+                    color:rgb(129, 129, 129);
+                }
+
+        }
+        
+    }
+}
+}
+
