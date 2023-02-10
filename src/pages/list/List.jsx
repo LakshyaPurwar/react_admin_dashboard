@@ -4,7 +4,7 @@ import Sidebar from "../../components/sidebar/Sidebar";
 import Navbar from "../../components/navbar/Navbar";
 import Datatable from "../../components/Datatable/Datatable";
 import { Link } from "react-router-dom";
-function List()
+function List({title})
 {
     return <div className="list">
         <div className="sidebarContainer">
@@ -16,10 +16,10 @@ function List()
            <div className="listBody">
             <div className="title">
                 <span className="subTitle">
-                Add New User
+                {title}
                 </span>
                 
-                <Link to='/users/new' className="link addNewButton">
+                <Link to='new' className="link addNewButton">
                     Add New
                 </Link>
             </div>

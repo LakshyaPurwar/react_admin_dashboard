@@ -19,12 +19,12 @@ function App() {
             <Route index element={<Home />} />
             <Route path="login" element={<Login />}/>
             <Route path = "users">
-              <Route index element={<List />} />
+              <Route index element={<List title="Add New Users"/>} />
               <Route path = ":userId" element={<Single/>} />
               <Route path="new" element={<New inputs={newUserForm} title={"Add New User"}/>} />
             </Route>
             <Route path="products">
-              <Route index element={<List />} />
+              <Route index element={<List title="Add New Products"/>} />
               <Route path="new" element={<New inputs={newProductForm} title={"Add New Product"}/>}/>
               <Route path=":productId" element={<Single />}/>
             </Route>
